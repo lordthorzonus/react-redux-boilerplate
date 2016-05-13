@@ -17,17 +17,10 @@ $ npm install
 
 ## Development
 ```
-$ npm start
+$ npm run dev
 ```
 Runs the project in development mode with hot-reloading of `src` folder.
 Open your browser at [http://localhost:3000](http://localhost:3000).
-
-### Try
-```
-$ rm -rf node_modules
-$ npm i
-$ npm dev
-```
 
 ## Clean
 ```
@@ -45,5 +38,5 @@ since react-router is keeping track of the navigation (e.g this can be done with
 
 ## Run karma
 ```
-$ npm test
+$ npm run test
 ```
